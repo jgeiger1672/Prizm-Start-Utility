@@ -1,0 +1,28 @@
+{
+  "PrizmDocDirectory": "YOUR_PRIZMDOC_DIRECTORY",
+  "LicensePath": "YOUR_LICENSE_PATH",
+  "DefaultLicenseSKU": "PZM-DOC-OEM-ALL",
+  "Database": {
+    "Adapter": "mysql",
+    "Username": "root",
+    "Password": "YOUR_DATABASE_PASSWORD",
+    "Host": "host.docker.internal",
+    "Port": "3306",
+    "Schema": "prizmdoc_server_db"
+  },
+  "MsOffice": {
+    "Host": "http://dev-pcc-server-windows.lbaas.jpg.com",
+    "Port": "18681"
+  },
+  "PAS": {
+    "PCCServer": {
+      "Host": "host.docker.internal",
+      "Port": "18681"
+    }
+  },
+  "Docker": {
+    "Namespace": "accusoft",
+    "ServerRepository": "prizmdoc-server",
+    "PASRepository": "prizmdoc-application-services"
+  }
+}
